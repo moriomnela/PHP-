@@ -6,7 +6,7 @@
  
    $foods = ["Mango","Apple","Banana","Lichi"];
    echo "<pre>";
-   print_r($foods);
+   var_dump($foods);
    echo "</pre>";
    // info('Moriom', 20 ,"PHP. <br>");
    // info('Rifat', 10 ,"Laravel.");
