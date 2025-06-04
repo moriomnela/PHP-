@@ -41,7 +41,11 @@ $student = [
 <p><?php echo $student["isMarried"] ? "Tomi bibahito" : "Obibahito";?></p>
 <h3>Prio  khabar list</h3>
 <ul>
-
+ <?php
+     foreach($student["foods"] as $foods){
+         echo "<li>{$foods}</li>";
+     }
+ ?>
 </ul>
 Bangla : <?php echo $student["result"]["Bangla"];?><br>
 English : <?php echo $student ["result"]["English"]?><br>
